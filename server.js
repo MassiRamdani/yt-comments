@@ -69,7 +69,7 @@ app.get("/getComments", async (req, res) => {
       console.error("Une erreur s'est produite :", error);
       res.status(500).json({
         error:
-          "Une erreur s'est produite lors de la récupération des commentaires.",
+          "Une erreur s'est dproduite lors de la récupération des commentaires.",
       });
     }
   };
