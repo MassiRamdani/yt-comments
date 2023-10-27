@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Récupération de commentaires YouTube</title>
+</head>
+
+<body>
+    <h1>Récupération de commentaires YouTube</h1>
+    <form id="commentForm">
+        <label for="videoUrl">URL de la vidéo YouTube :</label>
+        <input type="text" id="videoUrl" name="videoUrl" required>
+        <button type="button" id="fetchComments">Récupérer les commentaires</button>
+    </form>
+    <div id="comments"></div>
+
+    <!-- Ajoutez un bouton de téléchargement et un lien caché -->
+    <button type="button" id="downloadButton" style="display: none">Télécharger le fichier Excel</button>
+    <a id="downloadLink" style="display: none"></a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
