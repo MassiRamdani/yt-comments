@@ -1,5 +1,5 @@
 {
-  "name": "scraperyt",
+  "name": "yt_comments",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
